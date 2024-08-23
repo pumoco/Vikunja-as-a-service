@@ -1,3 +1,8 @@
+### Vikunja
+_The Todo-app to organize your life._
+
+![Vikunja](https://github.com/go-vikunja/vikunja)
+
 Vikunja Installation Script
 This repository contains a Bash script to automate the installation and configuration of Vikunja on a Linux server. Vikunja is an open-source task management application that offers a self-hosted alternative to popular task management tools.
 
@@ -40,12 +45,22 @@ Script Overview
 This script performs the following steps:
 
 Environment Setup: Updates the package list and installs necessary packages (wget, nginx, certbot, python3-certbot-nginx, unzip).
+
 Download and Install Vikunja: Downloads the specified version of Vikunja, unzips it, and sets up the binary and configuration files.
 Systemd Service: Creates a systemd service for managing Vikunja, enabling it to start on boot and restart on failure.
+
 Nginx Configuration: Sets up Nginx as a reverse proxy for Vikunja, handling requests on port 80 and forwarding them to Vikunja's default port (3456).
 SSL Certificate: Uses Certbot to obtain an SSL certificate for your domain, ensuring secure access over HTTPS.
+
 Clean-Up: Removes the downloaded files to keep your server clean.
 Troubleshooting
+
 Permission Issues: Ensure you are running the script as root or with sudo privileges.
 Nginx Configuration Errors: If Nginx fails to restart, check the syntax of the configuration file using nginx -t.
+
 SSL Certificate Issues: Make sure your domain is correctly pointing to your server's IP address and is accessible over the internet.
+
+```bash
+Thanks.
+Good luck.
+```
