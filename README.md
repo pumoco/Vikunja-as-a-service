@@ -1,7 +1,7 @@
 ### Vikunja
 _The Todo-app to organize your life._
 
-![Vikunja](https://github.com/go-vikunja/vikunja)
+[Vikunja](https://github.com/go-vikunja/vikunja)
 
 Vikunja Installation Script
 This repository contains a Bash script to automate the installation and configuration of Vikunja on a Linux server. Vikunja is an open-source task management application that offers a self-hosted alternative to popular task management tools.
